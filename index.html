@@ -5,77 +5,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Best Bali Experiences 2026</title>
     <style>
-        /* CSS Sederhana agar tampilan rapi */
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f4f4; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f4f7f6; color: #333; }
         .hero { background: #008080; color: white; text-align: center; padding: 60px 20px; }
-        .hero h1 { margin: 0; }
-        .cta { display: inline-block; background: #ff4500; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
-        section { padding: 40px 20px; max-width: 1000px; margin: auto; }
-        h2 { border-bottom: 2px solid #008080; padding-bottom: 10px; }
-        .card { background: white; margin-bottom: 30px; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        .card img { width: 100%; border-radius: 10px; height: 300px; object-fit: cover; }
-        footer { background: #333; color: white; text-align: center; padding: 20px; margin-top: 40px; }
+        .hero h1 { margin: 0; font-size: 2.5em; }
+        .cta-main { display: inline-block; background: #ff4500; color: white; padding: 12px 25px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 20px; }
+        
+        section { padding: 40px 20px; max-width: 900px; margin: auto; }
+        h2 { border-bottom: 3px solid #008080; padding-bottom: 10px; color: #008080; display: flex; align-items: center; gap: 10px; }
+        
+        .card { background: white; margin-bottom: 40px; border-radius: 15px; overflow: hidden; box-shadow: 0 8px 16px rgba(0,0,0,0.1); transition: 0.3s; }
+        .card:hover { transform: translateY(-5px); }
+        .card img { width: 100%; height: 300px; object-fit: cover; }
+        .card-content { padding: 25px; text-align: center; }
+        .card h3 { margin: 0 0 10px 0; font-size: 1.5em; color: #222; }
+        .card p { color: #666; margin-bottom: 20px; }
+        
+        /* TOMBOL BOOK NOW ORANYE BESAR */
+        .book-button { 
+            display: inline-block; 
+            background: #FF5722; 
+            color: white !important; 
+            padding: 15px 35px; 
+            text-decoration: none; 
+            border-radius: 50px; 
+            font-weight: bold; 
+            font-size: 1.2em; 
+            box-shadow: 0 4px 10px rgba(255, 87, 34, 0.3);
+            transition: 0.2s;
+        }
+        .book-button:hover { background: #e64a19; box-shadow: 0 6px 15px rgba(255, 87, 34, 0.5); }
+
+        footer { background: #333; color: white; text-align: center; padding: 30px; margin-top: 40px; }
     </style>
-    <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js"></script>
 </head>
 <body>
 
 <header class="hero">
     <h1>🌴 Best Bali Experiences 2026</h1>
-    <p>Handpicked tours you shouldn't miss</p>
-    <a href="#tours" class="cta">Explore Tours</a>
+    <p>Handpicked tours in Nusa Penida & Bali</p>
+    <a href="#tours" class="cta-main">Explore Tours</a>
 </header>
 
 <section id="tours">
     <h2>🔥 Top Bali Experiences</h2>
 
     <div class="card">
-        <h3>🌊 Nusa Penida Submarine Tour</h3>
-        <p>Explore Bali's underwater world with panoramic views from a real submarine.</p>
-        <div 
-            data-gyg-href="https://www.getyourguide.com/nusa-penida-l169006/nusa-penida-submarine-tour-with-panoramic-views-t417647/" 
-            data-gyg-location-id="169006" 
-            data-gyg-variant="horizontal" 
-            data-gyg-partner-id="JICTRFT" 
-            class="gyg-widget">
+        <img src="https://images.unsplash.com/photo-1551244072-5d12893278ab?q=80&w=1000&auto=format&fit=crop" alt="Bali Submarine Tour">
+        <div class="card-content">
+            <h3>🌊 Nusa Penida Submarine Tour</h3>
+            <p>Explore Bali's underwater world with panoramic views from a real submarine. No swimming required!</p>
+            <a href="https://www.getyourguide.com/nusa-penida-submarine-tour-with-panoramic-views-t417647/?partner_id=JICTRFT" class="book-button" target="_blank">
+               🔥 Book Now
+            </a>
         </div>
     </div>
 
     <div class="card">
-        <h3>🌄 Bali Sunrise, ATV, Coffee & Secret Waterfall</h3>
-        <p>Experience Bali in one epic day: sunrise views, ATV adventure, and hidden waterfalls.</p>
-        <div 
-            data-gyg-href="https://www.getyourguide.com/bali-l32/bali-sunrise-atv-coffee-secret-waterfall-t1121928/" 
-            data-gyg-location-id="32" 
-            data-gyg-variant="horizontal" 
-            data-gyg-partner-id="JICTRFT" 
-            class="gyg-widget">
+        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?q=80&w=1000&auto=format&fit=crop" alt="Bali Sunrise ATV Tour">
+        <div class="card-content">
+            <h3>🌄 Bali Sunrise, ATV & Secret Waterfall</h3>
+            <p>Experience Bali in one epic day: sunrise views, mountain ATV adventure, and hidden waterfalls.</p>
+            <a href="https://www.getyourguide.com/bali-sunrise-atv-coffee-secret-waterfall-t1121928/?partner_id=JICTRFT" class="book-button" target="_blank">
+               🔥 Book Now
+            </a>
         </div>
     </div>
 </section>
 
-<section>
-    <h2>⭐ Why Book With Us</h2>
-    <ul>
-        <li>✔ Instant confirmation</li>
-        <li>✔ Free cancellation</li>
-        <li>✔ Trusted global platform</li>
-        <li>✔ Best price guarantee</li>
-    </ul>
-</section>
-
-<section>
-    <h2>🎟️ Find More Bali Tours</h2>
-    <div data-gyg-href="https://widget.getyourguide.com/default/activities.frame"
-         data-gyg-locale-code="en-US"
-         data-gyg-widget="activities"
-         data-gyg-number-of-items="3"
-         data-gyg-partner-id="JICTRFT">
-    </div>
-</section>
-
 <footer>
-    <p>© 2026 Bali Tours | Affiliate Disclaimer</p>
+    <p>© 2026 Bali Tours | Nusa Penida Specialists</p>
+    <p style="font-size: 0.8em; opacity: 0.7;">Official Affiliate Partner of GetYourGuide</p>
 </footer>
 
 </body>
