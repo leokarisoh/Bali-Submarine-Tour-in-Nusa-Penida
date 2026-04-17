@@ -2,33 +2,18 @@
 <html lang="en">
 <head>
 <style>
-  /* Menargetkan tombol oranye GetYourGuide secara spesifik */
-  .gyg-widget .gyg-book-button, 
-  .gyg-widget .gyg-cta-button {
-      /* 1. Meningkatkan Ukuran Tombol Keseluruhan */
-      padding: 12px 24px !important; /* Membuat tombol lebih tinggi dan lebih lebar */
-      
-      /* 2. Menyesuaikan Teks Agar Serasi */
-      font-size: 16px !important;    /* Membuat teks tombol lebih besar */
-      font-weight: bold !important;  /* Memastikan teks terlihat jelas */
-      text-transform: uppercase;     /* Opsional: Membuat teks menjadi huruf besar semua agar lebih menonjol */
-
-      /* 3. Menghaluskan Sudut (Meningkatkan Estetika) */
-      border-radius: 6px !important;  /* Sedikit membulatkan sudut tombol agar terlihat modern */
-
-      /* 4. Menambahkan Bayangan Halus (Meningkatkan Kedalaman) */
-      box-shadow: 0 2px 4px rgba(0,0,0,0.2) !important; /* Membuatnya terlihat seperti tombol yang bisa ditekan */
-
-      /* 5. Memastikan Transisi yang Halus saat Diarahkan (Hover) */
-      transition: all 0.2s ease-in-out !important;
+  /* Menyesuaikan ukuran tombol tanpa merusak tata letak */
+  .gyg-widget iframe {
+      min-height: 150px !important; /* Memberi ruang lebih agar tombol tidak terpotong */
   }
 
-  /* Efek saat Tombol Diarahkan (Hover) */
-  .gyg-widget .gyg-book-button:hover, 
-  .gyg-widget .gyg-cta-button:hover {
-      background-color: #ff8800 !important; /* Sedikit menggelapkan warna oranye saat diarahkan */
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3) !important; /* Meningkatkan bayangan */
-      transform: translateY(-1px) !important; /* Sedikit mengangkat tombol */
+  .gyg-widget .gyg-cta-button, 
+  .gyg-widget .gyg-book-button {
+      display: inline-block !important;
+      padding: 15px 30px !important; /* Menambah ukuran tombol */
+      font-size: 18px !important;    /* Membuat teks lebih besar */
+      height: auto !important;       /* Memastikan tinggi tombol menyesuaikan padding */
+      width: auto !important;        /* Memastikan lebar tombol menyesuaikan padding */
   }
 </style>
 </head>
